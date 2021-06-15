@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: '{cipher}AQCbHVqsJt2eeB9+QURE03xgg0Oh/fxh5SlahZ6Ug2W5ysKpih21ATCaH7PzWo97kzEafz80lGhWR59aIuRG330Ao1GIDBbLYbi84+DeGCYM7RtVyhR1qMxH5Ov19me47cTzXaG8hAmDSDsLCxXsWM0SGETzfRabwmpD8opU5xzBF3tvBMz1O3LJUgrrZIC7qOnY2iW8Tb6ixxiN8BwUlfxfFzC8XV4PPm3PyYbynCeRhnR6+sTe1GXQK7LhZzCIDwR11VgfzRh+baeGwH94TqpGRyiSdlzOruLC60adJ0T/KQlON8wKnDR9OD4gygDkc/M8O7YT2shnTv0+m0zf8a3h8WT1LWPZLZe2A2WAlEtYRwt+qLGBzEMgKVWVtXJBT5E='
+    password: '{cipher}A2eeB9+QURE03xgg0Oh/fxh5SlahZ6Ug2W5ysKpih21ATCaH7PzWo97kzEafz80lGhWR59aIuRG330Ao1GIDBbLYbi84+DeGCYM7RtVyhR1qMxH5Ov19me47cTzXaG8hAmDSDsLCxXsWM0SGETzfRabwmpD8opU5xzBF3tvBMz1O3LJUgrrZIC7qOnY2iW8Tb6ixxiN8BwUlfxfFzC8XV4PPm3PyYbynCeRhnR6+sTe1GXQK7LhZzCIDwR11VgfzRh+baeGwH94TqpGRyiSdlzOruLC60adJ0T/KQlON8wKnDR9OD4gygDkc/M8O7YT2shnTv0+m0zf8a3h8WT1LWPZLZe2A2WAlEtYRwt+qLGBzEMgKVWVtXJBT5E='
     url: jdbc:mysql://vcomsmb20.iptime.org:18306/msa-user?characterEncoding=UTF-8&serverTimezone=UTC
     username: unismb
