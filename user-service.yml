@@ -1,6 +1,23 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    password: '{cipher}AQCbHVqsJt2eeB9+QURE03xgg0Oh/fxh5SlahZ6Ug2W5ysKpih21ATCaH7PzWo97kzEafz80lGhWR59aIuRG330Ao1GIDBbLYbi84+DeGCYM7RtVyhR1qMxH5Ov19me47cTzXaG8hAmDSDsLCxXsWM0SGETzfRabwmpD8opU5xzBF3tvBMz1O3LJUgrrZIC7qOnY2iW8Tb6ixxiN8BwUlfxfFzC8XV4PPm3PyYbynCeRhnR6+sTe1GXQK7LhZzCIDwR11VgfzRh+baeGwH94TqpGRyiSdlzOruLC60adJ0T/KQlON8wKnDR9OD4gygDkc/M8O7YT2shnTv0+m0zf8a3h8WT1LWPZLZe2A2WAlEtYRwt+qLGBzEMgKVWVtXJBT5E='
+    password: '{cipher}AQAMgqMfj1finDeqcNX7jwWhudHbUrbR5+n1pwkIoDbfPAZdIqyXDqKYkT3zFI3nVcVX00RJFfOZi9q53aAuZkn7Hp5AhqWAv7vQyzeBipgQ1lm1sBQutz+RCti87gv7+TOhi0hZtG7oJ/dxtlz7tlUVILL4mj9xdsADf69q4Lh5xCdMoWB6PPTf0lGkxMgz3yZQX0+9f5DZ+M80wiNGkGDvhatSvADsV5ImekFhX1xMbP66fJkZmLkiyyApyxsrxUtvD8oj531asvsYVAvxAxWxe59yZ05F3f486bcuMxW7OJcAHyny4sau8Tx2coeSVY5djrLSqOyZPzBid2XK2jSI+wWsWRkef4ycVuqgTgr2XqbswFS9Hqil842TTkQwQs4='
     url: jdbc:mysql://vcomsmb20.iptime.org:18306/msa-user?characterEncoding=UTF-8&serverTimezone=UTC
     username: unismb
+
+token:
+  expiration_accessToken_time: 86400000
+  expiration_refreshToken_time: 1209600000
+  secret: |
+    -----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ3AMIIBCgKCAQEA0m59l2u5iDnMbrXHfqkO
+    rn2dVQ3vfBJqcDuFUK03d+2PZGbVlNCqnkpIJ8syFppW8ljnWweP7+LiWpRoz0I7
+    fYb3d6TjhV86Y997Fl4DBrxgM6KTJOuE/uxnoDhZQ16LgOU2ckXjOzOdTsnGMKQB
+    LCl0vpcXBtFLMaSbpv1ozi4h7DJyVZ6EnFQZUWGdgTMhDrmqevfx95U/16c7WBDO
+    kqwIn7Glry1n9Suxygbf3g5AzpWcusZgDLIIZ7JTUldBb8qU2a0Dl4mvLZOn7wPo
+    jfj7Cw2QICsc2+Pwf21fP+hzf+1WSRHbnYv8uanRO0gZ8ekGaghM/1H6gqJbo2nI
+    JwIDAQAB-dev#2
+    -----END PUBLIC KEY-----
+
+gateway:
+  ip: 192.168.0.18
