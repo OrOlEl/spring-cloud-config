@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: '{cipher}AQAMgqMfj1finDeqcNX7jwWhudHbUrbR5+n1pwkIoDbfPAZdIqyXDqKYkT3zFI3nVcVX00RJFfOZi9q53aAuZkn7Hp5AhqWAv7vQyzeBipgQ1lm1sBQutz+RCti87gv7+TOhi0hZtG7oJ/dxtlz7tlUVILL4mj9xdsADf69q4Lh5xCdMoWB6PPTf0lGkxMgz3yZQX0+9f5DZ+M80wiNGkGDvhatSvADsV5ImekFhX1xMbP66fJkZmLkiyyApyxsrxUtvD8oj531asvsYVAvxAxWxe59yZ05F3f486bcuMxW7OJcAHyny4sau8Tx2coeSVY5djrLSqOyZPzBid2XK2jSI+wWsWRkef4ycVuqgTgr2XqbswFS9Hqil842TTkQwQs4='
+    url: jdbc:mysql://vcomsmb20.iptime.org:18306/msa-user?characterEncoding=UTF-8&serverTimezone=UTC
+    username: unismb
+
+gateway:
+  ip: 192.168.0.18
