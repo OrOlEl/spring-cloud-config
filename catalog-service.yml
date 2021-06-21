@@ -6,4 +6,4 @@ spring:
     username: unismb
 
 gateway:
-  ip: 192.168.47.1
+  ip: 127.0.0.1
